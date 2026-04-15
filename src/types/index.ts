@@ -1,3 +1,5 @@
+export type { Seller } from "./seller";
+
 export interface ProductColor {
   name: string;
   hex: string;
@@ -32,6 +34,7 @@ export interface Product {
   rating: number;
   reviewCount: number;
   tags: string[];
+  sellerId: string;
 }
 
 export interface Collection {
