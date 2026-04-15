@@ -6,6 +6,7 @@ import { cn } from "@/lib/utils";
 import type { Product } from "@/types";
 import { WishlistButton } from "./wishlist-button";
 import { useQuickView } from "./quick-view-provider";
+import { getSellerById } from "@/data/sellers";
 
 interface ProductCardProps {
   product: Product;
@@ -24,6 +25,7 @@ function hasRealImage(src: string): boolean {
 export function ProductCard({ product, className }: ProductCardProps) {
   const firstColor = product.colors[0];
   const { openQuickView } = useQuickView();
+  const seller = getSellerById(product.sellerId);
   const badgeLabel = product.badge === "new"
     ? "NEW"
     : product.badge === "new-color"
@@ -108,7 +110,20 @@ export function ProductCard({ product, className }: ProductCardProps) {
           <h3 className="text-[12px] font-medium uppercase tracking-[0.5px] mb-0.5">
             {product.name}
           </h3>
-          <p className="text-[12px] text-warm-gray mb-1">{firstColor?.name}</p>
+          <p className="text-[12px] text-warm-gray mb-0.5">{firstColor?.name}</p>
+          {seller && (
+            <p className="text-[11px] text-warm-gray/70 mb-1">
+              Sold by{" "}
+              <span className="text-charcoal/60 hover:text-charcoal transition-colors">
+                {seller.name}
+              </span>
+              {seller.rating >= 4.5 && (
+                <span className="inline-block ml-1 text-[9px] bg-charcoal/10 text-charcoal/70 px-1 py-0.5 rounded uppercase tracking-wide">
+                  Pro
+                </span>
+              )}
+            </p>
+          )}
         </div>
       </Link>
 
@@ -126,10 +141,10 @@ export function ProductCard({ product, className }: ProductCardProps) {
 
       {/* Price */}
       <div className="flex items-center gap-2">
-        <span className="text-[14px] font-medium">${product.price}</span>
+        <span className="text-[14px] font-medium">{product.price} zl</span>
         {product.originalPrice && (
           <span className="text-xs text-warm-gray line-through">
-            ${product.originalPrice}
+            {product.originalPrice} zl
           </span>
         )}
       </div>
