@@ -8,6 +8,7 @@ import { ColorSwatches } from "@/components/color-swatches";
 import { SizeSelector } from "@/components/size-selector";
 import { useCart } from "@/components/cart-provider";
 import { WishlistButton } from "@/components/wishlist-button";
+import { getSellerById } from "@/data/sellers";
 
 interface ProductInfoProps {
   product: Product;
@@ -60,6 +61,7 @@ export function ProductInfo({ product }: ProductInfoProps) {
   const { addItem } = useCart();
 
   const stock = useMemo(() => getStockInfo(product.id), [product.id]);
+  const seller = getSellerById(product.sellerId);
   const deliveryDate = useMemo(() => getEstimatedDelivery(), []);
 
   const collectionName = product.category === "men"
@@ -103,14 +105,27 @@ export function ProductInfo({ product }: ProductInfoProps) {
           <WishlistButton productId={product.id} className="mt-1 flex-shrink-0" />
         </div>
         <StarRating rating={product.rating} count={product.reviewCount} />
+        {seller && (
+          <Link
+            href={`/collections/all?seller=${seller.slug}`}
+            className="text-[12px] text-warm-gray hover:text-charcoal transition-colors mt-1 inline-block"
+          >
+            Sold by <span className="underline">{seller.name}</span>
+            {seller.rating >= 4.5 && (
+              <span className="inline-block ml-1 text-[9px] bg-charcoal/10 text-charcoal/70 px-1 py-0.5 rounded uppercase tracking-wide no-underline">
+                Pro
+              </span>
+            )}
+          </Link>
+        )}
       </div>
 
       {/* Price */}
       <div className="flex items-center gap-3">
-        <span className="text-lg font-medium text-charcoal">${product.price}</span>
+        <span className="text-lg font-medium text-charcoal">{product.price} zl</span>
         {product.originalPrice && (
           <span className="text-sm text-warm-gray line-through">
-            ${product.originalPrice}
+            {product.originalPrice} zl
           </span>
         )}
       </div>
@@ -154,13 +169,13 @@ export function ProductInfo({ product }: ProductInfoProps) {
         disabled={!selectedSize}
         className="w-full py-4 bg-charcoal text-white text-[12px] font-medium uppercase tracking-[0.6px] rounded-full hover:bg-charcoal-light transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
       >
-        {selectedSize ? "ADD TO CART — $" + product.price : "SELECT A SIZE"}
+        {selectedSize ? "ADD TO CART - " + product.price + " zl" : "SELECT A SIZE"}
       </button>
 
       {/* Shipping info */}
       <div className="flex flex-col gap-2 pt-2 border-t border-border">
         <p className="text-xs text-warm-gray">
-          Free Shipping on Orders over $75
+          Free Shipping on Orders over 299 zl
         </p>
         <p className="text-xs text-warm-gray">
           Estimated delivery: {deliveryDate}
