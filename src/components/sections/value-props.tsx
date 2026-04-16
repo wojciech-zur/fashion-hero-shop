@@ -1,21 +1,21 @@
 const props = [
   {
-    label: "COMFORT",
-    title: "Wear-All-Day Comfort",
+    label: "DISCOVERY",
+    title: "Thousands Of Sellers, One Search",
     description:
-      "Designed with soft, natural materials and cushioned soles so you can wear them from morning to night without a second thought.",
+      "From top brands to independent designers - find exactly what you're looking for across thousands of curated sellers.",
   },
   {
-    label: "SUSTAINABILITY",
-    title: "Sustainability In Every Step",
+    label: "TRUST",
+    title: "Verified Sellers, Real Reviews",
     description:
-      "From renewable materials to carbon-neutral practices, we build shoes that tread lightly on the planet.",
+      "Every seller on FashionHero is vetted. Real customer reviews and our Pro seller program help you shop with confidence.",
   },
   {
-    label: "MATERIALS",
-    title: "Materials From The Earth",
+    label: "VARIETY",
+    title: "From Streetwear To Sustainable",
     description:
-      "Merino wool, eucalyptus tree fiber, sugarcane-based foam. Nature provides the best ingredients for your feet.",
+      "Premium brands, vintage finds, handmade originals, everyday basics. Whatever your style, it's here.",
   },
 ];
 

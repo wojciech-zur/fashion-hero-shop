@@ -3,34 +3,34 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "About — FashionHero",
-  description: "Our story: sustainable shoes made from natural materials.",
+  title: "About - FashionHero",
+  description: "Poland's fashion marketplace connecting sellers and buyers.",
 };
 
 const values = [
   {
-    title: "Natural Materials",
+    title: "Empowering Sellers",
     description:
-      "We replace petroleum-based synthetics with natural alternatives wherever we can. Wool, tree fiber, and sugarcane — soft, breathable, and better for the planet.",
+      "We give independent sellers and established brands the tools to reach millions of fashion-conscious shoppers. Every seller matters - from one-person studios to global brands.",
   },
   {
-    title: "Carbon Conscious",
+    title: "Curated Discovery",
     description:
-      "From materials to transport, we measure and reduce our carbon footprint at every step. Every pair of FashionHero shoes comes with a smaller environmental impact.",
+      "Our marketplace brings together diverse styles and price points. We help buyers discover sellers they'd never find on their own - and help sellers find their audience.",
   },
   {
-    title: "Designed to Last",
+    title: "Fair For Everyone",
     description:
-      "We believe the most sustainable shoe is one you actually wear. That means obsessing over comfort, durability, and timeless style — not trends that expire in a season.",
+      "Transparent fees, no hidden costs, equal visibility. We believe a marketplace works best when every seller has a fair shot at reaching customers.",
   },
 ];
 
 const timeline = [
-  { year: "2020", event: "Founded with a simple idea: shoes should be comfortable and sustainable." },
-  { year: "2021", event: "Launched our first shoe, the Classic Walker, made from ZQ Merino wool." },
-  { year: "2022", event: "Introduced tree fiber and sugarcane-based materials across the line." },
-  { year: "2023", event: "Reached carbon neutrality across all operations and shipping." },
-  { year: "2024", event: "Expanded to 16 styles across runners, walkers, trainers, and more." },
+  { year: "2020", event: "Founded with a vision: a fashion marketplace where every seller gets a fair chance." },
+  { year: "2021", event: "Onboarded first 200 sellers. Launched with shoes, apparel, and accessories." },
+  { year: "2022", event: "Reached 1,000 sellers and 500K active buyers. Introduced seller analytics." },
+  { year: "2023", event: "Expanded to 4,000+ sellers. Revenue grew 28% year-over-year." },
+  { year: "2024", event: "Facing new challenges: margins tightening, competition intensifying. Time to evolve." },
 ];
 
 export default function AboutPage() {
@@ -51,9 +51,9 @@ export default function AboutPage() {
             OUR STORY
           </p>
           <h1 className="text-4xl md:text-5xl font-light leading-tight max-w-2xl">
-            Better shoes. Better planet.
+            Where sellers grow
             <br />
-            One step at a time.
+            and buyers discover.
           </h1>
         </div>
       </section>
@@ -64,9 +64,10 @@ export default function AboutPage() {
           OUR MISSION
         </p>
         <p className="text-xl md:text-2xl leading-relaxed text-charcoal">
-          FashionHero was born from a simple question: why are shoes made from
-          petroleum? We set out to prove that comfort, style, and sustainability
-          aren&apos;t trade-offs — they&apos;re the standard.
+          FashionHero started with a simple idea: fashion shouldn&apos;t be
+          controlled by a few big players. We built a marketplace where
+          independent designers compete alongside global brands - and where
+          buyers discover styles they won&apos;t find anywhere else.
         </p>
       </section>
 
@@ -122,7 +123,7 @@ export default function AboutPage() {
           READY TO STEP FORWARD?
         </p>
         <h2 className="text-3xl md:text-4xl font-light mb-8">
-          Find your perfect pair.
+          Start exploring.
         </h2>
         <div className="flex gap-4 justify-center">
           <Link href="/collections/mens" className="btn-cta bg-white text-charcoal hover:bg-white/90">

@@ -3,25 +3,25 @@ import type { Collection } from "@/types";
 export const collections: Collection[] = [
   {
     id: "mens",
-    name: "Men's Shoes",
+    name: "Men's Fashion",
     slug: "mens",
     description:
-      "Sustainable, supportive, and wildly comfortable. Our sneakers are always ready when you are.",
+      "Explore men's shoes, apparel and accessories from hundreds of sellers.",
     heroImage: "/images/hero/collection-hero-1.jpg",
   },
   {
     id: "womens",
-    name: "Women's Shoes",
+    name: "Women's Fashion",
     slug: "womens",
     description:
-      "Lightweight and naturally soft shoes that feel great from the first step.",
+      "Discover women's shoes, clothing and accessories from top sellers and indie designers.",
     heroImage: "/images/hero/collection-hero-2.jpg",
   },
   {
     id: "new-arrivals",
     name: "New Arrivals",
     slug: "new-arrivals",
-    description: "The latest styles, freshly dropped. Be the first to wear them.",
+    description: "Fresh drops from sellers across the marketplace. Be the first to discover them.",
     heroImage: "/images/hero/collection-hero-1.jpg",
   },
   {
@@ -29,42 +29,42 @@ export const collections: Collection[] = [
     name: "Best Sellers",
     slug: "best-sellers",
     description:
-      "Our most-loved styles. Tried, tested, and adored by thousands.",
+      "The most popular items on FashionHero right now. Loved by thousands of buyers.",
     heroImage: "/images/hero/collection-hero-2.jpg",
   },
   {
     id: "sale",
     name: "Sale",
     slug: "sale",
-    description: "Great shoes at even better prices. Limited time only.",
+    description: "Discounted items from sellers across the marketplace. Great deals, limited time.",
     heroImage: "/images/hero/collection-hero-1.jpg",
   },
   {
     id: "socks",
     name: "Socks",
     slug: "socks",
-    description: "Soft, sustainable socks made from natural materials. Comfort from the ground up.",
+    description: "Socks from independent makers and established brands. Every style, every price point.",
     heroImage: "/images/hero/collection-hero-1.jpg",
   },
   {
     id: "apparel",
     name: "Apparel",
     slug: "apparel",
-    description: "Everyday essentials made from nature. Soft, simple, and sustainable.",
+    description: "Clothing from hundreds of sellers. Streetwear, basics, sustainable fashion and more.",
     heroImage: "/images/hero/collection-hero-2.jpg",
   },
   {
     id: "accessories",
     name: "Accessories",
     slug: "accessories",
-    description: "The finishing touches. Bags, beanies, and more — all sustainably made.",
+    description: "Bags, hats, jewelry and more from sellers you won't find anywhere else.",
     heroImage: "/images/hero/collection-hero-1.jpg",
   },
   {
     id: "all",
     name: "All Products",
     slug: "all",
-    description: "Browse our entire catalog of sustainably made shoes, apparel, and accessories.",
+    description: "Browse everything on FashionHero - shoes, apparel, and accessories from thousands of sellers.",
     heroImage: "/images/hero/collection-hero-2.jpg",
   },
 ];

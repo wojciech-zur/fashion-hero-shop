@@ -10,7 +10,7 @@ export default function CheckoutPage() {
     (sum, item) => sum + item.product.price * item.quantity,
     0
   );
-  const shipping = subtotal >= 75 ? 0 : 7.5;
+  const shipping = subtotal >= 299 ? 0 : 19.9;
   const total = subtotal + shipping;
 
   return (
@@ -159,7 +159,7 @@ export default function CheckoutPage() {
                       <p className="text-xs text-warm-gray">Qty: {item.quantity}</p>
                     </div>
                     <span className="text-sm font-medium text-charcoal">
-                      ${(item.product.price * item.quantity).toFixed(0)}
+                      {(item.product.price * item.quantity).toFixed(0)} zl
                     </span>
                   </div>
                 ))}
@@ -168,17 +168,17 @@ export default function CheckoutPage() {
               <div className="space-y-2 pt-4 border-t border-cream-dark">
                 <div className="flex justify-between text-sm">
                   <span className="text-warm-gray">Subtotal</span>
-                  <span className="font-medium">${subtotal.toFixed(0)}</span>
+                  <span className="font-medium">{subtotal.toFixed(0)} zl</span>
                 </div>
                 <div className="flex justify-between text-sm">
                   <span className="text-warm-gray">Shipping</span>
                   <span className="font-medium">
-                    {shipping === 0 ? "Free" : `$${shipping.toFixed(2)}`}
+                    {shipping === 0 ? "Free" : `${shipping.toFixed(2)} zl`}
                   </span>
                 </div>
                 <div className="flex justify-between text-sm pt-3 border-t border-cream-dark mt-3">
                   <span className="font-medium text-charcoal">Total</span>
-                  <span className="font-medium text-charcoal text-lg">${total.toFixed(2)}</span>
+                  <span className="font-medium text-charcoal text-lg">{total.toFixed(2)} zl</span>
                 </div>
               </div>
             </div>
