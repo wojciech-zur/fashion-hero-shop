@@ -141,15 +141,15 @@ export const products: Product[] = [
     tags: ["cozy", "warm", "layering", "sustainable"],
     sellerId: "s1",
     colors: [
-      { name: "Charcoal", hex: "#333333", image: "/images/products/product-7.jpg" },
-      { name: "Navy", hex: "#2a3a5c", image: "/images/products/product-6.jpg" },
+      { name: "Charcoal", hex: "#333333", image: "/images/products/product-20.jpg" },
+      { name: "Navy", hex: "#2a3a5c", image: "/images/products/product-21.jpg" },
     ],
     sizes: [1, 2, 3, 4],
     description: "A cozy merino wool hoodie that regulates temperature naturally. Warm without the bulk.",
     features: ["Merino wool terry", "Kangaroo pocket", "Ribbed cuffs", "Adjustable hood"],
     materials: "80% Merino wool, 20% nylon.",
     care: "Machine wash cold gentle cycle. Lay flat to dry.",
-    images: ["/images/products/product-7.jpg", "/images/products/product-6.jpg"],
+    images: ["/images/products/product-20.jpg", "/images/products/product-21.jpg"],
   },
   {
     id: "27",
@@ -166,15 +166,15 @@ export const products: Product[] = [
     tags: ["comfortable", "tapered", "casual", "stretchy"],
     sellerId: "s1",
     colors: [
-      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-1.jpg" },
-      { name: "Charcoal", hex: "#333333", image: "/images/products/product-7.jpg" },
+      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-24.jpg" },
+      { name: "Charcoal", hex: "#333333", image: "/images/products/product-25.jpg" },
     ],
     sizes: [1, 2, 3, 4],
     description: "Tapered joggers with a soft knit fabric that moves with you. Refined enough for the coffee shop.",
     features: ["Knit terry fabric", "Elastic waist with drawcord", "Tapered leg", "Side pockets"],
     materials: "65% Organic cotton, 30% recycled polyester, 5% elastane.",
     care: "Machine wash cold. Tumble dry low.",
-    images: ["/images/products/product-1.jpg", "/images/products/product-7.jpg"],
+    images: ["/images/products/product-24.jpg", "/images/products/product-25.jpg"],
   },
   {
     id: "29",
@@ -191,8 +191,8 @@ export const products: Product[] = [
     tags: ["lightweight", "windproof", "packable", "layering"],
     sellerId: "s1",
     colors: [
-      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-1.jpg" },
-      { name: "Olive", hex: "#5c6b4f", image: "/images/products/product-3.jpg" },
+      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-22.jpg" },
+      { name: "Olive", hex: "#5c6b4f", image: "/images/products/product-23.jpg" },
     ],
     sizes: [1, 2, 3, 4],
     description: "A windproof jacket that packs into its own pocket. Light enough to carry everywhere.",
@@ -200,7 +200,7 @@ export const products: Product[] = [
     materials: "Shell: Recycled nylon. Lining: Recycled mesh.",
     care: "Machine wash cold. Hang dry.",
     badge: "new",
-    images: ["/images/products/product-1.jpg", "/images/products/product-3.jpg"],
+    images: ["/images/products/product-22.jpg", "/images/products/product-23.jpg"],
   },
   {
     id: "35",
@@ -250,9 +250,9 @@ export const products: Product[] = [
     tags: ["streetwear", "oversized", "warm", "layering"],
     sellerId: "s1",
     colors: [
-      { name: "Washed Black", hex: "#2a2a2a", image: "/images/products/product-1.jpg" },
-      { name: "Olive", hex: "#5c6b4f", image: "/images/products/product-3.jpg" },
-      { name: "Charcoal", hex: "#333333", image: "/images/products/product-7.jpg" },
+      { name: "Washed Black", hex: "#2a2a2a", image: "/images/products/product-20.jpg" },
+      { name: "Olive", hex: "#5c6b4f", image: "/images/products/product-21.jpg" },
+      { name: "Charcoal", hex: "#333333", image: "/images/products/product-20.jpg" },
     ],
     sizes: [1, 2, 3, 4],
     description:
@@ -262,10 +262,10 @@ export const products: Product[] = [
     care: "Machine wash cold inside out. Hang dry.",
     badge: "new",
     images: [
-      "/images/products/product-1.jpg",
-      "/images/products/product-3.jpg",
-      "/images/products/product-7.jpg",
-      "/images/products/product-6.jpg",
+      "/images/products/product-20.jpg",
+      "/images/products/product-21.jpg",
+      "/images/products/product-20.jpg",
+      "/images/products/product-21.jpg",
     ],
   },
   {
@@ -283,8 +283,8 @@ export const products: Product[] = [
     tags: ["streetwear", "cargo", "tapered", "utility"],
     sellerId: "s1",
     colors: [
-      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-1.jpg" },
-      { name: "Olive", hex: "#5c6b4f", image: "/images/products/product-3.jpg" },
+      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-24.jpg" },
+      { name: "Olive", hex: "#5c6b4f", image: "/images/products/product-25.jpg" },
     ],
     sizes: [1, 2, 3, 4],
     description:
@@ -293,10 +293,10 @@ export const products: Product[] = [
     materials: "70% Cotton, 25% recycled polyester, 5% elastane.",
     care: "Machine wash cold. Tumble dry low.",
     images: [
-      "/images/products/product-1.jpg",
-      "/images/products/product-7.jpg",
-      "/images/products/product-3.jpg",
-      "/images/products/product-10.jpg",
+      "/images/products/product-24.jpg",
+      "/images/products/product-25.jpg",
+      "/images/products/product-24.jpg",
+      "/images/products/product-25.jpg",
     ],
   },
   {
@@ -345,8 +345,8 @@ export const products: Product[] = [
     tags: ["streetwear", "utility", "windproof", "layering"],
     sellerId: "s1",
     colors: [
-      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-1.jpg" },
-      { name: "Army Green", hex: "#4a5a3a", image: "/images/products/product-3.jpg" },
+      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-22.jpg" },
+      { name: "Army Green", hex: "#4a5a3a", image: "/images/products/product-23.jpg" },
     ],
     sizes: [1, 2, 3, 4],
     description:
@@ -355,10 +355,10 @@ export const products: Product[] = [
     materials: "Shell: Recycled nylon. Lining: Recycled mesh. DWR finish.",
     care: "Machine wash cold. Hang dry. Reproof as needed.",
     images: [
-      "/images/products/product-1.jpg",
-      "/images/products/product-3.jpg",
-      "/images/products/product-7.jpg",
-      "/images/products/product-6.jpg",
+      "/images/products/product-22.jpg",
+      "/images/products/product-23.jpg",
+      "/images/products/product-22.jpg",
+      "/images/products/product-23.jpg",
     ],
   },
   {
@@ -407,9 +407,9 @@ export const products: Product[] = [
     tags: ["streetwear", "oversized", "bold", "everyday"],
     sellerId: "s1",
     colors: [
-      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-1.jpg" },
-      { name: "White", hex: "#f0ede6", image: "/images/products/product-9.jpg" },
-      { name: "Grey", hex: "#8a8a8a", image: "/images/products/product-8.jpg" },
+      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-17.jpg" },
+      { name: "White", hex: "#f0ede6", image: "/images/products/product-18.jpg" },
+      { name: "Grey", hex: "#8a8a8a", image: "/images/products/product-19.jpg" },
     ],
     sizes: [1, 2, 3, 4],
     description:
@@ -418,10 +418,10 @@ export const products: Product[] = [
     materials: "100% Organic cotton, 250gsm.",
     care: "Machine wash cold. Tumble dry low.",
     images: [
-      "/images/products/product-1.jpg",
-      "/images/products/product-9.jpg",
-      "/images/products/product-8.jpg",
-      "/images/products/product-7.jpg",
+      "/images/products/product-17.jpg",
+      "/images/products/product-18.jpg",
+      "/images/products/product-19.jpg",
+      "/images/products/product-17.jpg",
     ],
   },
   {
@@ -503,8 +503,8 @@ export const products: Product[] = [
     tags: ["streetwear", "windproof", "half-zip", "layering"],
     sellerId: "s1",
     colors: [
-      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-1.jpg" },
-      { name: "Navy", hex: "#2a3a5c", image: "/images/products/product-6.jpg" },
+      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-22.jpg" },
+      { name: "Navy", hex: "#2a3a5c", image: "/images/products/product-23.jpg" },
     ],
     sizes: [1, 2, 3, 4],
     description:
@@ -513,10 +513,10 @@ export const products: Product[] = [
     materials: "Shell: Recycled nylon. Lining: Recycled mesh.",
     care: "Machine wash cold. Hang dry.",
     images: [
-      "/images/products/product-1.jpg",
-      "/images/products/product-6.jpg",
-      "/images/products/product-7.jpg",
-      "/images/products/product-3.jpg",
+      "/images/products/product-22.jpg",
+      "/images/products/product-23.jpg",
+      "/images/products/product-22.jpg",
+      "/images/products/product-23.jpg",
     ],
   },
   {
@@ -565,8 +565,8 @@ export const products: Product[] = [
     tags: ["raw-edge", "relaxed", "minimal", "everyday"],
     sellerId: "s1",
     colors: [
-      { name: "Washed Black", hex: "#2a2a2a", image: "/images/products/product-1.jpg" },
-      { name: "Sand", hex: "#c4b59a", image: "/images/products/product-8.jpg" },
+      { name: "Washed Black", hex: "#2a2a2a", image: "/images/products/product-17.jpg" },
+      { name: "Sand", hex: "#c4b59a", image: "/images/products/product-18.jpg" },
     ],
     sizes: [1, 2, 3, 4],
     description:
@@ -575,10 +575,10 @@ export const products: Product[] = [
     materials: "100% Eucalyptus tree fiber.",
     care: "Machine wash cold. Air dry.",
     images: [
-      "/images/products/product-1.jpg",
-      "/images/products/product-8.jpg",
-      "/images/products/product-9.jpg",
-      "/images/products/product-7.jpg",
+      "/images/products/product-17.jpg",
+      "/images/products/product-18.jpg",
+      "/images/products/product-19.jpg",
+      "/images/products/product-17.jpg",
     ],
   },
   {
@@ -627,8 +627,8 @@ export const products: Product[] = [
     tags: ["streetwear", "track", "side-stripe", "tapered"],
     sellerId: "s1",
     colors: [
-      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-1.jpg" },
-      { name: "Navy", hex: "#2a3a5c", image: "/images/products/product-6.jpg" },
+      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-24.jpg" },
+      { name: "Navy", hex: "#2a3a5c", image: "/images/products/product-25.jpg" },
     ],
     sizes: [1, 2, 3, 4],
     description:
@@ -637,10 +637,10 @@ export const products: Product[] = [
     materials: "75% Cotton, 25% recycled polyester.",
     care: "Machine wash cold. Tumble dry low.",
     images: [
-      "/images/products/product-1.jpg",
-      "/images/products/product-6.jpg",
-      "/images/products/product-7.jpg",
-      "/images/products/product-10.jpg",
+      "/images/products/product-24.jpg",
+      "/images/products/product-25.jpg",
+      "/images/products/product-24.jpg",
+      "/images/products/product-25.jpg",
     ],
   },
   {
@@ -658,8 +658,8 @@ export const products: Product[] = [
     tags: ["streetwear", "heavyweight", "crewneck", "oversized"],
     sellerId: "s1",
     colors: [
-      { name: "Washed Black", hex: "#2a2a2a", image: "/images/products/product-1.jpg" },
-      { name: "Cream", hex: "#f0ede6", image: "/images/products/product-9.jpg" },
+      { name: "Washed Black", hex: "#2a2a2a", image: "/images/products/product-20.jpg" },
+      { name: "Cream", hex: "#f0ede6", image: "/images/products/product-21.jpg" },
     ],
     sizes: [1, 2, 3, 4],
     description:
@@ -669,10 +669,10 @@ export const products: Product[] = [
     care: "Machine wash cold inside out. Hang dry.",
     badge: "new",
     images: [
-      "/images/products/product-1.jpg",
-      "/images/products/product-9.jpg",
-      "/images/products/product-7.jpg",
-      "/images/products/product-8.jpg",
+      "/images/products/product-20.jpg",
+      "/images/products/product-21.jpg",
+      "/images/products/product-20.jpg",
+      "/images/products/product-21.jpg",
     ],
   },
   {
@@ -721,7 +721,7 @@ export const products: Product[] = [
     tags: ["streetwear", "vest", "layering", "utility"],
     sellerId: "s1",
     colors: [
-      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-1.jpg" },
+      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-22.jpg" },
     ],
     sizes: [1, 2, 3, 4],
     description:
@@ -730,10 +730,10 @@ export const products: Product[] = [
     materials: "Shell: Recycled nylon. Fill: Recycled polyester insulation.",
     care: "Machine wash cold. Tumble dry low.",
     images: [
-      "/images/products/product-1.jpg",
-      "/images/products/product-7.jpg",
-      "/images/products/product-6.jpg",
-      "/images/products/product-3.jpg",
+      "/images/products/product-22.jpg",
+      "/images/products/product-23.jpg",
+      "/images/products/product-22.jpg",
+      "/images/products/product-23.jpg",
     ],
   },
   {
@@ -751,8 +751,8 @@ export const products: Product[] = [
     tags: ["streetwear", "shorts", "summer", "casual"],
     sellerId: "s1",
     colors: [
-      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-1.jpg" },
-      { name: "Olive", hex: "#5c6b4f", image: "/images/products/product-3.jpg" },
+      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-24.jpg" },
+      { name: "Olive", hex: "#5c6b4f", image: "/images/products/product-25.jpg" },
     ],
     sizes: [1, 2, 3, 4],
     description:
@@ -761,10 +761,10 @@ export const products: Product[] = [
     materials: "80% Cotton, 20% recycled polyester.",
     care: "Machine wash cold. Tumble dry low.",
     images: [
-      "/images/products/product-1.jpg",
-      "/images/products/product-3.jpg",
-      "/images/products/product-7.jpg",
-      "/images/products/product-8.jpg",
+      "/images/products/product-24.jpg",
+      "/images/products/product-25.jpg",
+      "/images/products/product-24.jpg",
+      "/images/products/product-25.jpg",
     ],
   },
 
@@ -941,15 +941,15 @@ export const products: Product[] = [
     tags: ["cozy", "warm", "layering", "sustainable"],
     sellerId: "s2",
     colors: [
-      { name: "Oatmeal", hex: "#c4b59a", image: "/images/products/product-15.jpg" },
-      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-10.jpg" },
+      { name: "Oatmeal", hex: "#c4b59a", image: "/images/products/product-20.jpg" },
+      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-21.jpg" },
     ],
     sizes: [1, 2, 3, 4],
     description: "A cozy merino wool hoodie that regulates temperature naturally. Warm without the bulk.",
     features: ["Merino wool terry", "Kangaroo pocket", "Ribbed cuffs", "Adjustable hood"],
     materials: "80% Merino wool, 20% nylon.",
     care: "Machine wash cold gentle cycle. Lay flat to dry.",
-    images: ["/images/products/product-15.jpg", "/images/products/product-10.jpg"],
+    images: ["/images/products/product-20.jpg", "/images/products/product-21.jpg"],
   },
   {
     id: "28",
@@ -966,15 +966,15 @@ export const products: Product[] = [
     tags: ["comfortable", "tapered", "casual", "stretchy"],
     sellerId: "s2",
     colors: [
-      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-10.jpg" },
-      { name: "Oatmeal", hex: "#c4b59a", image: "/images/products/product-15.jpg" },
+      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-24.jpg" },
+      { name: "Oatmeal", hex: "#c4b59a", image: "/images/products/product-25.jpg" },
     ],
     sizes: [1, 2, 3, 4],
     description: "Tapered joggers with a soft knit fabric that moves with you. Refined enough for the coffee shop.",
     features: ["Knit terry fabric", "Elastic waist with drawcord", "Tapered leg", "Side pockets"],
     materials: "65% Organic cotton, 30% recycled polyester, 5% elastane.",
     care: "Machine wash cold. Tumble dry low.",
-    images: ["/images/products/product-10.jpg", "/images/products/product-15.jpg"],
+    images: ["/images/products/product-24.jpg", "/images/products/product-25.jpg"],
   },
   {
     id: "30",
@@ -991,8 +991,8 @@ export const products: Product[] = [
     tags: ["cozy", "layering", "versatile", "soft"],
     sellerId: "s2",
     colors: [
-      { name: "Oatmeal", hex: "#c4b59a", image: "/images/products/product-15.jpg" },
-      { name: "Charcoal", hex: "#333333", image: "/images/products/product-7.jpg" },
+      { name: "Oatmeal", hex: "#c4b59a", image: "/images/products/product-22.jpg" },
+      { name: "Charcoal", hex: "#333333", image: "/images/products/product-23.jpg" },
     ],
     sizes: [1, 2, 3, 4],
     description: "A relaxed-fit merino wool cardigan that layers effortlessly over anything.",
@@ -1000,7 +1000,7 @@ export const products: Product[] = [
     materials: "85% Merino wool, 15% nylon.",
     care: "Hand wash cold or machine wash gentle. Lay flat to dry.",
     badge: "new",
-    images: ["/images/products/product-15.jpg", "/images/products/product-7.jpg"],
+    images: ["/images/products/product-22.jpg", "/images/products/product-23.jpg"],
   },
   {
     id: "47",
@@ -1050,8 +1050,8 @@ export const products: Product[] = [
     tags: ["elegant", "versatile", "breathable", "office"],
     sellerId: "s2",
     colors: [
-      { name: "Navy", hex: "#2a3a5c", image: "/images/products/product-13.jpg" },
-      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-10.jpg" },
+      { name: "Navy", hex: "#2a3a5c", image: "/images/products/product-22.jpg" },
+      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-23.jpg" },
     ],
     sizes: [1, 2, 3, 4],
     description:
@@ -1061,10 +1061,10 @@ export const products: Product[] = [
     care: "Machine wash cold gentle. Hang dry.",
     badge: "new",
     images: [
-      "/images/products/product-13.jpg",
-      "/images/products/product-10.jpg",
-      "/images/products/product-11.jpg",
-      "/images/products/product-12.jpg",
+      "/images/products/product-22.jpg",
+      "/images/products/product-23.jpg",
+      "/images/products/product-22.jpg",
+      "/images/products/product-23.jpg",
     ],
   },
   {
@@ -1114,8 +1114,8 @@ export const products: Product[] = [
     tags: ["smart-casual", "oversized", "layering", "modern"],
     sellerId: "s2",
     colors: [
-      { name: "Charcoal", hex: "#333333", image: "/images/products/product-7.jpg" },
-      { name: "Cream", hex: "#f0ede6", image: "/images/products/product-15.jpg" },
+      { name: "Charcoal", hex: "#333333", image: "/images/products/product-22.jpg" },
+      { name: "Cream", hex: "#f0ede6", image: "/images/products/product-23.jpg" },
     ],
     sizes: [1, 2, 3, 4],
     description:
@@ -1124,10 +1124,10 @@ export const products: Product[] = [
     materials: "Shell: 70% Wool, 30% recycled polyester. Lining: Recycled polyester.",
     care: "Dry clean recommended. Or machine wash cold gentle, lay flat to dry.",
     images: [
-      "/images/products/product-7.jpg",
-      "/images/products/product-15.jpg",
-      "/images/products/product-10.jpg",
-      "/images/products/product-13.jpg",
+      "/images/products/product-22.jpg",
+      "/images/products/product-23.jpg",
+      "/images/products/product-22.jpg",
+      "/images/products/product-23.jpg",
     ],
   },
   {
@@ -1145,9 +1145,9 @@ export const products: Product[] = [
     tags: ["breathable", "relaxed", "summer", "everyday"],
     sellerId: "s2",
     colors: [
-      { name: "White", hex: "#f0ede6", image: "/images/products/product-11.jpg" },
-      { name: "Sky Blue", hex: "#87CEEB", image: "/images/products/product-2.jpg" },
-      { name: "Blush", hex: "#d4a5a5", image: "/images/products/product-12.jpg" },
+      { name: "White", hex: "#f0ede6", image: "/images/products/product-17.jpg" },
+      { name: "Sky Blue", hex: "#87CEEB", image: "/images/products/product-18.jpg" },
+      { name: "Blush", hex: "#d4a5a5", image: "/images/products/product-19.jpg" },
     ],
     sizes: [1, 2, 3, 4],
     description:
@@ -1156,10 +1156,10 @@ export const products: Product[] = [
     materials: "55% Linen, 45% organic cotton.",
     care: "Machine wash cold. Tumble dry low.",
     images: [
-      "/images/products/product-11.jpg",
-      "/images/products/product-12.jpg",
-      "/images/products/product-2.jpg",
-      "/images/products/product-15.jpg",
+      "/images/products/product-17.jpg",
+      "/images/products/product-18.jpg",
+      "/images/products/product-19.jpg",
+      "/images/products/product-17.jpg",
     ],
   },
   {
@@ -1241,8 +1241,8 @@ export const products: Product[] = [
     tags: ["elegant", "cropped", "layering", "modern"],
     sellerId: "s2",
     colors: [
-      { name: "Cream", hex: "#f0ede6", image: "/images/products/product-15.jpg" },
-      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-10.jpg" },
+      { name: "Cream", hex: "#f0ede6", image: "/images/products/product-22.jpg" },
+      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-23.jpg" },
     ],
     sizes: [1, 2, 3, 4],
     description:
@@ -1251,10 +1251,10 @@ export const products: Product[] = [
     materials: "Shell: 70% Wool, 30% recycled polyester.",
     care: "Dry clean or hand wash cold. Lay flat to dry.",
     images: [
-      "/images/products/product-15.jpg",
-      "/images/products/product-10.jpg",
-      "/images/products/product-11.jpg",
-      "/images/products/product-13.jpg",
+      "/images/products/product-22.jpg",
+      "/images/products/product-23.jpg",
+      "/images/products/product-22.jpg",
+      "/images/products/product-23.jpg",
     ],
   },
   {
@@ -1272,9 +1272,9 @@ export const products: Product[] = [
     tags: ["elegant", "camisole", "layering", "summer"],
     sellerId: "s2",
     colors: [
-      { name: "Champagne", hex: "#e8d5b7", image: "/images/products/product-15.jpg" },
-      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-10.jpg" },
-      { name: "Ivory", hex: "#f5f0eb", image: "/images/products/product-11.jpg" },
+      { name: "Champagne", hex: "#e8d5b7", image: "/images/products/product-17.jpg" },
+      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-18.jpg" },
+      { name: "Ivory", hex: "#f5f0eb", image: "/images/products/product-19.jpg" },
     ],
     sizes: [1, 2, 3, 4],
     description:
@@ -1284,10 +1284,10 @@ export const products: Product[] = [
     care: "Hand wash cold. Hang dry.",
     badge: "new",
     images: [
-      "/images/products/product-15.jpg",
-      "/images/products/product-10.jpg",
-      "/images/products/product-11.jpg",
-      "/images/products/product-12.jpg",
+      "/images/products/product-17.jpg",
+      "/images/products/product-18.jpg",
+      "/images/products/product-19.jpg",
+      "/images/products/product-17.jpg",
     ],
   },
   {
@@ -1305,8 +1305,8 @@ export const products: Product[] = [
     tags: ["elegant", "wide-leg", "office", "versatile"],
     sellerId: "s2",
     colors: [
-      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-10.jpg" },
-      { name: "Navy", hex: "#2a3a5c", image: "/images/products/product-13.jpg" },
+      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-24.jpg" },
+      { name: "Navy", hex: "#2a3a5c", image: "/images/products/product-25.jpg" },
     ],
     sizes: [1, 2, 3, 4],
     description:
@@ -1315,10 +1315,10 @@ export const products: Product[] = [
     materials: "100% Eucalyptus tree fiber (TENCEL Lyocell).",
     care: "Machine wash cold gentle. Hang dry. Iron on low.",
     images: [
-      "/images/products/product-10.jpg",
-      "/images/products/product-13.jpg",
-      "/images/products/product-15.jpg",
-      "/images/products/product-11.jpg",
+      "/images/products/product-24.jpg",
+      "/images/products/product-25.jpg",
+      "/images/products/product-24.jpg",
+      "/images/products/product-25.jpg",
     ],
   },
   {
@@ -1367,8 +1367,8 @@ export const products: Product[] = [
     tags: ["elegant", "warm", "winter", "layering"],
     sellerId: "s2",
     colors: [
-      { name: "Camel", hex: "#c4a060", image: "/images/products/product-15.jpg" },
-      { name: "Charcoal", hex: "#333333", image: "/images/products/product-7.jpg" },
+      { name: "Camel", hex: "#c4a060", image: "/images/products/product-30.jpg" },
+      { name: "Charcoal", hex: "#333333", image: "/images/products/product-31.jpg" },
     ],
     sizes: [0],
     description:
@@ -1377,10 +1377,10 @@ export const products: Product[] = [
     materials: "100% Extra-fine Merino wool.",
     care: "Hand wash cold. Lay flat to dry.",
     images: [
-      "/images/products/product-15.jpg",
-      "/images/products/product-7.jpg",
-      "/images/products/product-10.jpg",
-      "/images/products/product-13.jpg",
+      "/images/products/product-30.jpg",
+      "/images/products/product-31.jpg",
+      "/images/products/product-30.jpg",
+      "/images/products/product-31.jpg",
     ],
   },
 
@@ -1492,8 +1492,8 @@ export const products: Product[] = [
     tags: ["performance", "breathable", "cushioned", "arch-support"],
     sellerId: "s3",
     colors: [
-      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-1.jpg" },
-      { name: "Grey", hex: "#8a8a8a", image: "/images/products/product-8.jpg" },
+      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-26.jpg" },
+      { name: "Grey", hex: "#8a8a8a", image: "/images/products/product-27.jpg" },
     ],
     sizes: [1, 2, 3, 4],
     description: "Engineered for active days with targeted cushioning and ventilation zones.",
@@ -1501,7 +1501,7 @@ export const products: Product[] = [
     materials: "55% Recycled polyester mesh, 40% nylon, 5% elastane.",
     care: "Machine wash cold. Tumble dry low.",
     badge: "new",
-    images: ["/images/products/product-1.jpg", "/images/products/product-8.jpg"],
+    images: ["/images/products/product-26.jpg", "/images/products/product-27.jpg"],
   },
   {
     id: "52",
@@ -1646,8 +1646,8 @@ export const products: Product[] = [
     tags: ["performance", "compression", "breathable", "running"],
     sellerId: "s3",
     colors: [
-      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-10.jpg" },
-      { name: "Navy", hex: "#2a3a5c", image: "/images/products/product-13.jpg" },
+      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-24.jpg" },
+      { name: "Navy", hex: "#2a3a5c", image: "/images/products/product-25.jpg" },
     ],
     sizes: [1, 2, 3, 4],
     description:
@@ -1656,9 +1656,9 @@ export const products: Product[] = [
     materials: "78% Recycled nylon, 22% elastane.",
     care: "Machine wash cold. Hang dry.",
     images: [
-      "/images/products/product-10.jpg",
-      "/images/products/product-13.jpg",
-      "/images/products/product-5.jpg",
+      "/images/products/product-24.jpg",
+      "/images/products/product-25.jpg",
+      "/images/products/product-24.jpg",
     ],
   },
   {
@@ -1676,8 +1676,8 @@ export const products: Product[] = [
     tags: ["performance", "quick-dry", "breathable", "gym"],
     sellerId: "s3",
     colors: [
-      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-1.jpg" },
-      { name: "Grey", hex: "#8a8a8a", image: "/images/products/product-8.jpg" },
+      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-17.jpg" },
+      { name: "Grey", hex: "#8a8a8a", image: "/images/products/product-18.jpg" },
     ],
     sizes: [1, 2, 3, 4],
     description:
@@ -1686,9 +1686,9 @@ export const products: Product[] = [
     materials: "92% Recycled polyester, 8% elastane.",
     care: "Machine wash cold. Tumble dry low.",
     images: [
-      "/images/products/product-1.jpg",
-      "/images/products/product-8.jpg",
-      "/images/products/product-6.jpg",
+      "/images/products/product-17.jpg",
+      "/images/products/product-18.jpg",
+      "/images/products/product-19.jpg",
     ],
   },
   {
@@ -1767,8 +1767,8 @@ export const products: Product[] = [
     tags: ["performance", "track", "warm-up", "lightweight"],
     sellerId: "s3",
     colors: [
-      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-1.jpg" },
-      { name: "Navy", hex: "#2a3a5c", image: "/images/products/product-6.jpg" },
+      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-22.jpg" },
+      { name: "Navy", hex: "#2a3a5c", image: "/images/products/product-23.jpg" },
     ],
     sizes: [1, 2, 3, 4],
     description:
@@ -1778,9 +1778,9 @@ export const products: Product[] = [
     care: "Machine wash cold. Hang dry.",
     badge: "new",
     images: [
-      "/images/products/product-1.jpg",
-      "/images/products/product-6.jpg",
-      "/images/products/product-7.jpg",
+      "/images/products/product-22.jpg",
+      "/images/products/product-23.jpg",
+      "/images/products/product-22.jpg",
     ],
   },
   {
@@ -1798,8 +1798,8 @@ export const products: Product[] = [
     tags: ["performance", "running", "quick-dry", "lightweight"],
     sellerId: "s3",
     colors: [
-      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-1.jpg" },
-      { name: "Navy", hex: "#2a3a5c", image: "/images/products/product-6.jpg" },
+      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-24.jpg" },
+      { name: "Navy", hex: "#2a3a5c", image: "/images/products/product-25.jpg" },
     ],
     sizes: [1, 2, 3, 4],
     description:
@@ -1808,9 +1808,9 @@ export const products: Product[] = [
     materials: "92% Recycled polyester, 8% elastane.",
     care: "Machine wash cold. Tumble dry low.",
     images: [
-      "/images/products/product-1.jpg",
-      "/images/products/product-6.jpg",
-      "/images/products/product-8.jpg",
+      "/images/products/product-24.jpg",
+      "/images/products/product-25.jpg",
+      "/images/products/product-24.jpg",
     ],
   },
   {
@@ -1954,9 +1954,9 @@ export const products: Product[] = [
     tags: ["soft", "breathable", "everyday", "sustainable"],
     sellerId: "s4",
     colors: [
-      { name: "White", hex: "#f0ede6", image: "/images/products/product-9.jpg" },
-      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-1.jpg" },
-      { name: "Olive", hex: "#5c6b4f", image: "/images/products/product-3.jpg" },
+      { name: "White", hex: "#f0ede6", image: "/images/products/product-17.jpg" },
+      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-18.jpg" },
+      { name: "Olive", hex: "#5c6b4f", image: "/images/products/product-19.jpg" },
     ],
     sizes: [1, 2, 3, 4],
     description: "Soft tee from eucalyptus fiber. Light, breathable, ready for anything.",
@@ -1964,7 +1964,7 @@ export const products: Product[] = [
     materials: "100% Eucalyptus tree fiber (TENCEL Lyocell).",
     care: "Machine wash cold. Tumble dry low. Do not iron.",
     badge: "new",
-    images: ["/images/products/product-9.jpg", "/images/products/product-1.jpg"],
+    images: ["/images/products/product-17.jpg", "/images/products/product-18.jpg"],
   },
   {
     id: "24",
@@ -1981,9 +1981,9 @@ export const products: Product[] = [
     tags: ["soft", "breathable", "everyday", "sustainable"],
     sellerId: "s4",
     colors: [
-      { name: "White", hex: "#f0ede6", image: "/images/products/product-11.jpg" },
-      { name: "Blush", hex: "#d4a5a5", image: "/images/products/product-12.jpg" },
-      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-10.jpg" },
+      { name: "White", hex: "#f0ede6", image: "/images/products/product-17.jpg" },
+      { name: "Blush", hex: "#d4a5a5", image: "/images/products/product-18.jpg" },
+      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-19.jpg" },
     ],
     sizes: [1, 2, 3, 4],
     description: "Soft tee from eucalyptus fiber. Light, breathable, ready for anything.",
@@ -1991,7 +1991,7 @@ export const products: Product[] = [
     materials: "100% Eucalyptus tree fiber (TENCEL Lyocell).",
     care: "Machine wash cold. Tumble dry low. Do not iron.",
     badge: "new",
-    images: ["/images/products/product-11.jpg", "/images/products/product-12.jpg"],
+    images: ["/images/products/product-17.jpg", "/images/products/product-18.jpg"],
   },
   {
     id: "59",
@@ -2033,16 +2033,16 @@ export const products: Product[] = [
     tags: ["basic", "warm", "everyday", "unisex"],
     sellerId: "s4",
     colors: [
-      { name: "Grey", hex: "#8a8a8a", image: "/images/products/product-8.jpg" },
-      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-1.jpg" },
-      { name: "Navy", hex: "#2a3a5c", image: "/images/products/product-6.jpg" },
+      { name: "Grey", hex: "#8a8a8a", image: "/images/products/product-20.jpg" },
+      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-21.jpg" },
+      { name: "Navy", hex: "#2a3a5c", image: "/images/products/product-20.jpg" },
     ],
     sizes: [1, 2, 3, 4],
     description: "No-frills hoodie. Good fabric, good fit, good price. That's it.",
     features: ["Kangaroo pocket", "Drawcord hood", "Ribbed cuffs", "Regular fit"],
     materials: "80% Cotton, 20% polyester. 300gsm.",
     care: "Machine wash cold. Tumble dry low.",
-    images: ["/images/products/product-8.jpg", "/images/products/product-1.jpg"],
+    images: ["/images/products/product-20.jpg", "/images/products/product-21.jpg"],
   },
   {
     id: "61",
@@ -2084,15 +2084,15 @@ export const products: Product[] = [
     tags: ["basic", "comfortable", "everyday", "unisex"],
     sellerId: "s4",
     colors: [
-      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-1.jpg" },
-      { name: "Grey", hex: "#8a8a8a", image: "/images/products/product-8.jpg" },
+      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-24.jpg" },
+      { name: "Grey", hex: "#8a8a8a", image: "/images/products/product-25.jpg" },
     ],
     sizes: [1, 2, 3, 4],
     description: "Everyday joggers. Elastic waist, tapered leg, side pockets. Nothing more, nothing less.",
     features: ["Elastic waist", "Tapered leg", "Side pockets", "Regular fit"],
     materials: "80% Cotton, 20% polyester.",
     care: "Machine wash cold. Tumble dry low.",
-    images: ["/images/products/product-1.jpg", "/images/products/product-8.jpg"],
+    images: ["/images/products/product-24.jpg", "/images/products/product-25.jpg"],
   },
   {
     id: "63",
@@ -2135,15 +2135,15 @@ export const products: Product[] = [
     tags: ["basic", "everyday", "comfortable"],
     sellerId: "s4",
     colors: [
-      { name: "White", hex: "#f0ede6", image: "/images/products/product-9.jpg" },
-      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-16.jpg" },
+      { name: "White", hex: "#f0ede6", image: "/images/products/product-26.jpg" },
+      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-27.jpg" },
     ],
     sizes: [1, 2, 3, 4],
     description: "Basic crew socks. Cotton blend, reinforced toe and heel. 3-pack.",
     features: ["Cotton blend", "Crew height", "Reinforced toe and heel"],
     materials: "80% Cotton, 18% nylon, 2% elastane.",
     care: "Machine wash. Tumble dry.",
-    images: ["/images/products/product-9.jpg", "/images/products/product-16.jpg"],
+    images: ["/images/products/product-26.jpg", "/images/products/product-27.jpg"],
   },
   {
     id: "122",
@@ -2442,9 +2442,9 @@ export const products: Product[] = [
     tags: ["everyday", "breathable", "moisture-wicking"],
     sellerId: "s6",
     colors: [
-      { name: "Charcoal", hex: "#333333", image: "/images/products/product-7.jpg" },
-      { name: "White", hex: "#f0ede6", image: "/images/products/product-9.jpg" },
-      { name: "Navy", hex: "#2a3a5c", image: "/images/products/product-6.jpg" },
+      { name: "Charcoal", hex: "#333333", image: "/images/products/product-26.jpg" },
+      { name: "White", hex: "#f0ede6", image: "/images/products/product-27.jpg" },
+      { name: "Navy", hex: "#2a3a5c", image: "/images/products/product-26.jpg" },
     ],
     sizes: [1, 2, 3, 4],
     description: "Soft merino wool ankle socks that keep your feet cool and dry all day.",
@@ -2452,7 +2452,7 @@ export const products: Product[] = [
     materials: "65% Merino wool, 33% nylon, 2% elastane.",
     care: "Machine wash cold. Tumble dry low.",
     badge: "new",
-    images: ["/images/products/product-7.jpg", "/images/products/product-9.jpg"],
+    images: ["/images/products/product-26.jpg", "/images/products/product-27.jpg"],
   },
   {
     id: "18",
@@ -2469,9 +2469,9 @@ export const products: Product[] = [
     tags: ["everyday", "breathable", "moisture-wicking"],
     sellerId: "s6",
     colors: [
-      { name: "Blush", hex: "#d4a5a5", image: "/images/products/product-12.jpg" },
-      { name: "White", hex: "#f0ede6", image: "/images/products/product-11.jpg" },
-      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-10.jpg" },
+      { name: "Blush", hex: "#d4a5a5", image: "/images/products/product-26.jpg" },
+      { name: "White", hex: "#f0ede6", image: "/images/products/product-27.jpg" },
+      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-26.jpg" },
     ],
     sizes: [1, 2, 3, 4],
     description: "Soft merino wool ankle socks that keep your feet cool and dry all day.",
@@ -2479,7 +2479,7 @@ export const products: Product[] = [
     materials: "65% Merino wool, 33% nylon, 2% elastane.",
     care: "Machine wash cold. Tumble dry low.",
     badge: "new",
-    images: ["/images/products/product-12.jpg", "/images/products/product-11.jpg"],
+    images: ["/images/products/product-26.jpg", "/images/products/product-27.jpg"],
   },
   {
     id: "19",
@@ -2496,15 +2496,15 @@ export const products: Product[] = [
     tags: ["crew-length", "warm", "cushioned"],
     sellerId: "s6",
     colors: [
-      { name: "Charcoal", hex: "#333333", image: "/images/products/product-7.jpg" },
-      { name: "Cream", hex: "#f0ede6", image: "/images/products/product-9.jpg" },
+      { name: "Charcoal", hex: "#333333", image: "/images/products/product-26.jpg" },
+      { name: "Cream", hex: "#f0ede6", image: "/images/products/product-27.jpg" },
     ],
     sizes: [1, 2, 3, 4],
     description: "Mid-calf crew socks with extra cushioning at the heel and toe.",
     features: ["Merino wool blend", "Crew height", "Reinforced heel and toe", "Arch support"],
     materials: "60% Merino wool, 37% nylon, 3% elastane.",
     care: "Machine wash cold. Tumble dry low.",
-    images: ["/images/products/product-7.jpg", "/images/products/product-9.jpg"],
+    images: ["/images/products/product-26.jpg", "/images/products/product-27.jpg"],
   },
   {
     id: "20",
@@ -2521,15 +2521,15 @@ export const products: Product[] = [
     tags: ["crew-length", "warm", "cushioned"],
     sellerId: "s6",
     colors: [
-      { name: "Lavender", hex: "#b5a7c9", image: "/images/products/product-12.jpg" },
-      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-10.jpg" },
+      { name: "Lavender", hex: "#b5a7c9", image: "/images/products/product-26.jpg" },
+      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-27.jpg" },
     ],
     sizes: [1, 2, 3, 4],
     description: "Mid-calf crew socks with extra cushioning at the heel and toe.",
     features: ["Merino wool blend", "Crew height", "Reinforced heel and toe", "Arch support"],
     materials: "60% Merino wool, 37% nylon, 3% elastane.",
     care: "Machine wash cold. Tumble dry low.",
-    images: ["/images/products/product-12.jpg", "/images/products/product-10.jpg"],
+    images: ["/images/products/product-26.jpg", "/images/products/product-27.jpg"],
   },
   {
     id: "21",
@@ -2546,15 +2546,15 @@ export const products: Product[] = [
     tags: ["invisible", "breathable", "no-slip"],
     sellerId: "s6",
     colors: [
-      { name: "White", hex: "#f0ede6", image: "/images/products/product-9.jpg" },
-      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-16.jpg" },
+      { name: "White", hex: "#f0ede6", image: "/images/products/product-26.jpg" },
+      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-27.jpg" },
     ],
     sizes: [1, 2, 3, 4],
     description: "Truly invisible socks with a silicone grip heel to stay in place.",
     features: ["Tree-fiber blend", "No-show height", "Silicone heel grip", "Breathable mesh top"],
     materials: "70% Eucalyptus tree fiber, 28% nylon, 2% elastane.",
     care: "Machine wash cold. Tumble dry low.",
-    images: ["/images/products/product-9.jpg", "/images/products/product-16.jpg"],
+    images: ["/images/products/product-26.jpg", "/images/products/product-27.jpg"],
   },
   {
     id: "73",
@@ -2596,16 +2596,16 @@ export const products: Product[] = [
     tags: ["organic", "sustainable", "soft", "everyday"],
     sellerId: "s6",
     colors: [
-      { name: "Natural", hex: "#c4b59a", image: "/images/products/product-8.jpg" },
-      { name: "Sage", hex: "#8a9a7a", image: "/images/products/product-3.jpg" },
-      { name: "White", hex: "#f0ede6", image: "/images/products/product-9.jpg" },
+      { name: "Natural", hex: "#c4b59a", image: "/images/products/product-17.jpg" },
+      { name: "Sage", hex: "#8a9a7a", image: "/images/products/product-18.jpg" },
+      { name: "White", hex: "#f0ede6", image: "/images/products/product-19.jpg" },
     ],
     sizes: [1, 2, 3, 4],
     description: "100% organic tee. GOTS certified, enzyme-washed for softness, made in a fair-trade facility.",
     features: ["GOTS certified organic", "Enzyme-washed", "Relaxed fit", "Tagless label"],
     materials: "100% GOTS-certified organic cotton.",
     care: "Machine wash cold. Tumble dry low.",
-    images: ["/images/products/product-8.jpg", "/images/products/product-3.jpg"],
+    images: ["/images/products/product-17.jpg", "/images/products/product-18.jpg"],
   },
   {
     id: "75",
@@ -2648,15 +2648,15 @@ export const products: Product[] = [
     tags: ["recycled", "sustainable", "warm", "cozy"],
     sellerId: "s6",
     colors: [
-      { name: "Olive", hex: "#5c6b4f", image: "/images/products/product-3.jpg" },
-      { name: "Grey", hex: "#8a8a8a", image: "/images/products/product-8.jpg" },
+      { name: "Olive", hex: "#5c6b4f", image: "/images/products/product-20.jpg" },
+      { name: "Grey", hex: "#8a8a8a", image: "/images/products/product-21.jpg" },
     ],
     sizes: [1, 2, 3, 4],
     description: "Hoodie made from 100% recycled plastic bottles. 12 bottles per hoodie. Same comfort, less waste.",
     features: ["100% recycled polyester", "Kangaroo pocket", "Drawcord hood", "Regular fit"],
     materials: "100% Recycled polyester (12 PET bottles per hoodie).",
     care: "Machine wash cold. Hang dry.",
-    images: ["/images/products/product-3.jpg", "/images/products/product-8.jpg"],
+    images: ["/images/products/product-20.jpg", "/images/products/product-21.jpg"],
   },
   {
     id: "77",
@@ -2673,15 +2673,15 @@ export const products: Product[] = [
     tags: ["bamboo", "sustainable", "soft", "breathable"],
     sellerId: "s6",
     colors: [
-      { name: "Natural", hex: "#c4b59a", image: "/images/products/product-8.jpg" },
-      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-16.jpg" },
+      { name: "Natural", hex: "#c4b59a", image: "/images/products/product-26.jpg" },
+      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-27.jpg" },
     ],
     sizes: [1, 2, 3, 4],
     description: "Bamboo fiber socks. Softer than cotton, naturally temperature-regulating, biodegradable.",
     features: ["Bamboo fiber blend", "Temperature regulating", "Ankle height", "Biodegradable"],
     materials: "70% Bamboo viscose, 28% nylon, 2% elastane.",
     care: "Machine wash cold. Tumble dry low.",
-    images: ["/images/products/product-8.jpg", "/images/products/product-16.jpg"],
+    images: ["/images/products/product-26.jpg", "/images/products/product-27.jpg"],
   },
 
   // ── Classic Fit (s7) - Men's smart casual ──
@@ -2755,15 +2755,15 @@ export const products: Product[] = [
     tags: ["smart-casual", "polo", "breathable", "office"],
     sellerId: "s7",
     colors: [
-      { name: "Navy", hex: "#2a3a5c", image: "/images/products/product-6.jpg" },
-      { name: "White", hex: "#f0ede6", image: "/images/products/product-9.jpg" },
+      { name: "Navy", hex: "#2a3a5c", image: "/images/products/product-17.jpg" },
+      { name: "White", hex: "#f0ede6", image: "/images/products/product-18.jpg" },
     ],
     sizes: [1, 2, 3, 4],
     description: "Knit polo with a clean collar and two-button placket. Smart enough for the office, comfortable enough for the weekend.",
     features: ["Knit construction", "Two-button placket", "Ribbed collar", "Regular fit"],
     materials: "100% Merino wool.",
     care: "Machine wash cold gentle. Lay flat to dry.",
-    images: ["/images/products/product-6.jpg", "/images/products/product-9.jpg"],
+    images: ["/images/products/product-17.jpg", "/images/products/product-18.jpg"],
   },
   {
     id: "80",
@@ -2805,15 +2805,15 @@ export const products: Product[] = [
     tags: ["smart-casual", "chino", "versatile", "comfortable"],
     sellerId: "s7",
     colors: [
-      { name: "Khaki", hex: "#c4b59a", image: "/images/products/product-8.jpg" },
-      { name: "Navy", hex: "#2a3a5c", image: "/images/products/product-6.jpg" },
+      { name: "Khaki", hex: "#c4b59a", image: "/images/products/product-24.jpg" },
+      { name: "Navy", hex: "#2a3a5c", image: "/images/products/product-25.jpg" },
     ],
     sizes: [1, 2, 3, 4],
     description: "Stretch chino with a modern taper. Office-friendly, weekend-ready. Two-way stretch for comfort.",
     features: ["Two-way stretch", "Modern taper", "Slash pockets", "Button closure"],
     materials: "97% Organic cotton, 3% elastane.",
     care: "Machine wash cold. Tumble dry low.",
-    images: ["/images/products/product-8.jpg", "/images/products/product-6.jpg"],
+    images: ["/images/products/product-24.jpg", "/images/products/product-25.jpg"],
   },
   {
     id: "82",
@@ -2830,15 +2830,15 @@ export const products: Product[] = [
     tags: ["smart-casual", "merino", "layering", "classic"],
     sellerId: "s7",
     colors: [
-      { name: "Charcoal", hex: "#333333", image: "/images/products/product-7.jpg" },
-      { name: "Navy", hex: "#2a3a5c", image: "/images/products/product-6.jpg" },
+      { name: "Charcoal", hex: "#333333", image: "/images/products/product-22.jpg" },
+      { name: "Navy", hex: "#2a3a5c", image: "/images/products/product-23.jpg" },
     ],
     sizes: [1, 2, 3, 4],
     description: "Lightweight merino V-neck sweater. Layer it over a shirt or wear it on its own. Breathable, itch-free, machine washable.",
     features: ["V-neckline", "Lightweight knit", "Machine washable", "Regular fit"],
     materials: "100% Extra-fine Merino wool.",
     care: "Machine wash cold gentle. Lay flat to dry.",
-    images: ["/images/products/product-7.jpg", "/images/products/product-6.jpg"],
+    images: ["/images/products/product-22.jpg", "/images/products/product-23.jpg"],
   },
   {
     id: "83",
@@ -2881,15 +2881,15 @@ export const products: Product[] = [
     tags: ["linen", "summer", "smart-casual", "breathable"],
     sellerId: "s7",
     colors: [
-      { name: "White", hex: "#f0ede6", image: "/images/products/product-9.jpg" },
-      { name: "Sky Blue", hex: "#87CEEB", image: "/images/products/product-6.jpg" },
+      { name: "White", hex: "#f0ede6", image: "/images/products/product-17.jpg" },
+      { name: "Sky Blue", hex: "#87CEEB", image: "/images/products/product-18.jpg" },
     ],
     sizes: [1, 2, 3, 4],
     description: "Pure linen shirt with a camp collar. Relaxed but put-together. Gets better with every wash.",
     features: ["Camp collar", "Button front", "Chest pocket", "Relaxed fit"],
     materials: "100% European linen.",
     care: "Machine wash cold. Hang dry. Iron on medium.",
-    images: ["/images/products/product-9.jpg", "/images/products/product-6.jpg"],
+    images: ["/images/products/product-17.jpg", "/images/products/product-18.jpg"],
   },
 
   // ── Marta Handmade (s8) - Handmade shoes, unique items ──
@@ -3204,15 +3204,15 @@ export const products: Product[] = [
     tags: ["budget", "basic", "everyday"],
     sellerId: "s10",
     colors: [
-      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-1.jpg" },
-      { name: "White", hex: "#f0ede6", image: "/images/products/product-9.jpg" },
+      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-17.jpg" },
+      { name: "White", hex: "#f0ede6", image: "/images/products/product-18.jpg" },
     ],
     sizes: [1, 2, 3, 4],
     description: "Basic tee at a basic price. Cotton blend, regular fit.",
     features: ["Regular fit", "Crew neck"],
     materials: "Cotton/polyester blend.",
     care: "Machine wash.",
-    images: ["/images/products/product-1.jpg"],
+    images: ["/images/products/product-17.jpg"],
   },
   {
     id: "98",
@@ -3278,15 +3278,15 @@ export const products: Product[] = [
     tags: ["budget", "warm", "everyday"],
     sellerId: "s10",
     colors: [
-      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-1.jpg" },
-      { name: "Grey", hex: "#8a8a8a", image: "/images/products/product-8.jpg" },
+      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-20.jpg" },
+      { name: "Grey", hex: "#8a8a8a", image: "/images/products/product-21.jpg" },
     ],
     sizes: [1, 2, 3, 4],
     description: "Budget hoodie. Fleece lined, kangaroo pocket. Does what it needs to.",
     features: ["Fleece lined", "Kangaroo pocket", "Drawcord hood"],
     materials: "Cotton/polyester blend.",
     care: "Machine wash.",
-    images: ["/images/products/product-1.jpg"],
+    images: ["/images/products/product-20.jpg"],
   },
 
   // ── Kasia Creates (s11) - Accessories only ──
@@ -3305,8 +3305,8 @@ export const products: Product[] = [
     tags: ["everyday", "spacious", "sustainable", "lightweight"],
     sellerId: "s11",
     colors: [
-      { name: "Natural", hex: "#c4b59a", image: "/images/products/product-8.jpg" },
-      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-16.jpg" },
+      { name: "Natural", hex: "#c4b59a", image: "/images/products/product-28.jpg" },
+      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-29.jpg" },
     ],
     sizes: [0],
     description: "Handcrafted tote from tree-fiber canvas. Holds everything, weighs almost nothing.",
@@ -3314,7 +3314,7 @@ export const products: Product[] = [
     materials: "100% Eucalyptus tree fiber canvas.",
     care: "Machine wash cold. Air dry.",
     badge: "new",
-    images: ["/images/products/product-8.jpg", "/images/products/product-16.jpg"],
+    images: ["/images/products/product-28.jpg", "/images/products/product-29.jpg"],
   },
   {
     id: "32",
@@ -3331,16 +3331,16 @@ export const products: Product[] = [
     tags: ["warm", "cozy", "winter", "sustainable"],
     sellerId: "s11",
     colors: [
-      { name: "Charcoal", hex: "#333333", image: "/images/products/product-7.jpg" },
-      { name: "Cream", hex: "#f0ede6", image: "/images/products/product-9.jpg" },
-      { name: "Navy", hex: "#2a3a5c", image: "/images/products/product-6.jpg" },
+      { name: "Charcoal", hex: "#333333", image: "/images/products/product-30.jpg" },
+      { name: "Cream", hex: "#f0ede6", image: "/images/products/product-31.jpg" },
+      { name: "Navy", hex: "#2a3a5c", image: "/images/products/product-30.jpg" },
     ],
     sizes: [0],
     description: "Handmade merino wool beanie. Warm without the itch.",
     features: ["Merino wool knit", "Double-layered", "Ribbed cuff", "One size fits most"],
     materials: "100% ZQ Merino wool.",
     care: "Hand wash cold. Lay flat to dry.",
-    images: ["/images/products/product-7.jpg", "/images/products/product-9.jpg"],
+    images: ["/images/products/product-30.jpg", "/images/products/product-31.jpg"],
   },
   {
     id: "33",
@@ -3357,15 +3357,15 @@ export const products: Product[] = [
     tags: ["breathable", "adjustable", "casual", "sun-protection"],
     sellerId: "s11",
     colors: [
-      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-1.jpg" },
-      { name: "Olive", hex: "#5c6b4f", image: "/images/products/product-3.jpg" },
+      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-30.jpg" },
+      { name: "Olive", hex: "#5c6b4f", image: "/images/products/product-31.jpg" },
     ],
     sizes: [0],
     description: "Breathable mesh-backed cap with an adjustable strap. Made from recycled materials.",
     features: ["Recycled mesh back", "Adjustable snapback", "Curved brim", "Moisture-wicking sweatband"],
     materials: "Front: Recycled polyester. Back: Recycled mesh.",
     care: "Spot clean with damp cloth.",
-    images: ["/images/products/product-1.jpg", "/images/products/product-3.jpg"],
+    images: ["/images/products/product-30.jpg", "/images/products/product-31.jpg"],
   },
   {
     id: "101",
@@ -3382,15 +3382,15 @@ export const products: Product[] = [
     tags: ["crossbody", "compact", "everyday", "handcrafted"],
     sellerId: "s11",
     colors: [
-      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-16.jpg" },
-      { name: "Tan", hex: "#c4a060", image: "/images/products/product-8.jpg" },
+      { name: "Black", hex: "#1a1a1a", image: "/images/products/product-28.jpg" },
+      { name: "Tan", hex: "#c4a060", image: "/images/products/product-29.jpg" },
     ],
     sizes: [0],
     description: "Compact crossbody bag. Fits phone, wallet, keys. Adjustable strap.",
     features: ["Adjustable strap", "Zip closure", "Interior pocket"],
     materials: "Organic cotton canvas.",
     care: "Spot clean.",
-    images: ["/images/products/product-16.jpg"],
+    images: ["/images/products/product-28.jpg"],
   },
 
   // ── FirstStep (s12) - Basic items ──
@@ -3457,14 +3457,14 @@ export const products: Product[] = [
     tags: ["basic", "everyday"],
     sellerId: "s12",
     colors: [
-      { name: "White", hex: "#f0ede6", image: "/images/products/product-9.jpg" },
+      { name: "White", hex: "#f0ede6", image: "/images/products/product-17.jpg" },
     ],
     sizes: [1, 2, 3, 4],
     description: "Simple cotton tee. Nothing fancy, just a tee.",
     features: ["Cotton fabric", "Regular fit"],
     materials: "100% Cotton.",
     care: "Machine wash.",
-    images: ["/images/products/product-9.jpg"],
+    images: ["/images/products/product-17.jpg"],
   },
 ];
 

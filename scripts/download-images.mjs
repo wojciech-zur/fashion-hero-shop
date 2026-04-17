@@ -23,6 +23,28 @@ const productImages = [
   { url: "https://images.unsplash.com/photo-1605348532760-6753d2c43329?w=800&h=800&fit=crop", name: "product-14.jpg" },
   { url: "https://images.unsplash.com/photo-1603808033192-082d6919d3e1?w=800&h=800&fit=crop", name: "product-15.jpg" },
   { url: "https://images.unsplash.com/photo-1579338559194-a162d19bf842?w=800&h=800&fit=crop", name: "product-16.jpg" },
+  // Tees
+  { url: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800&h=800&fit=crop", name: "product-17.jpg" },
+  { url: "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=800&h=800&fit=crop", name: "product-18.jpg" },
+  { url: "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=800&h=800&fit=crop", name: "product-19.jpg" },
+  // Hoodies
+  { url: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=800&h=800&fit=crop", name: "product-20.jpg" },
+  { url: "https://images.unsplash.com/photo-1578768079052-aa76e52ff62e?w=800&h=800&fit=crop", name: "product-21.jpg" },
+  // Jackets
+  { url: "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=800&h=800&fit=crop", name: "product-22.jpg" },
+  { url: "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=800&h=800&fit=crop", name: "product-23.jpg" },
+  // Joggers/pants
+  { url: "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?w=800&h=800&fit=crop", name: "product-24.jpg" },
+  { url: "https://images.unsplash.com/photo-1542272604-787c3835535d?w=800&h=800&fit=crop", name: "product-25.jpg" },
+  // Socks
+  { url: "https://images.unsplash.com/photo-1586350977771-b3b0abd50c82?w=800&h=800&fit=crop", name: "product-26.jpg" },
+  { url: "https://images.unsplash.com/photo-1610374792793-f016b77ca51a?w=800&h=800&fit=crop", name: "product-27.jpg" },
+  // Bags
+  { url: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&h=800&fit=crop", name: "product-28.jpg" },
+  { url: "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?w=800&h=800&fit=crop", name: "product-29.jpg" },
+  // Beanies/caps
+  { url: "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?w=800&h=800&fit=crop", name: "product-30.jpg" },
+  { url: "https://images.unsplash.com/photo-1521369909029-2afed882baee?w=800&h=800&fit=crop", name: "product-31.jpg" },
 ];
 
 const heroImages = [
