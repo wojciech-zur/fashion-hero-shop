@@ -19,7 +19,7 @@ The objective is to accelerate first sales for new sellers while giving FashionH
 
 - Package name: **New Seller Boost**.
 - Price: **49 zl**.
-- Billing note shown in UX: **"kwota zostanie dopisana do twojej faktury w FashionHero"**.
+- Billing note shown in UX: **"49 zl will be added to your FashionHero invoice."**
 - Activation length: **7 days** from activation timestamp.
 - Usage policy: **one-time only per seller**.
 - Inventory cap: seller can promote up to **10 offers** at a time.
@@ -51,7 +51,7 @@ After activation:
 - Seller can turn promotion on/off per item.
 - Seller sees selected-offer counter (`0-10`) and pending state.
 - Seller confirms with **Apply changes** (server-side save).
-- Seller sees KPI summary: `promo views`, `promo sold`.
+- Seller sees KPI summary: `promo views`, `promo clicks`, `promo sold`.
 - Seller also gets debug controls for QA (`DEBUG: expire`, `DEBUG: deactivate`).
 
 After expiration:

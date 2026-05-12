@@ -24,7 +24,8 @@ Pakiet zwiększa widoczność ofert sprzedającego na stronach kategorii przez o
 6. Po aktywacji:
    - może zaznaczać/odznaczać oferty do promocji,
    - widzi licznik wybranych ofert,
-   - klika **Apply changes**, aby zapisać zmiany.
+   - klika **Apply changes**, aby zapisać zmiany,
+   - widzi sekcję statystyk boosta: `promo views`, `promo clicks`, `promo sold`.
 7. Po zapisaniu zmian pojawia się komunikat potwierdzający, ile ofert jest aktualnie promowanych.
 
 ## Zachowanie listy ofert na seller dashboard
@@ -80,3 +81,4 @@ Pakiet zwiększa widoczność ofert sprzedającego na stronach kategorii przez o
 7. Działanie strzałek karuzeli.
 8. Scenariusz wygaśnięcia i brak możliwości ponownej aktywacji.
 9. Zachowanie przycisków DEBUG dla aktywnego i przeterminowanego stanu.
+10. Widoczność i aktualizacja wszystkich 3 KPI (`promo views`, `promo clicks`, `promo sold`) dla wybranego sellera.
