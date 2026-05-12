@@ -3508,6 +3508,10 @@ export function getProductsBySeller(sellerSlug: string): Product[] {
   return products.filter((p) => p.sellerId === seller.id);
 }
 
+export function getProductsBySellerId(sellerId: string): Product[] {
+  return products.filter((p) => p.sellerId === sellerId);
+}
+
 export const heroSlides: HeroSlide[] = [
   {
     id: "1",

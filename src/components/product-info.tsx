@@ -9,6 +9,8 @@ import { SizeSelector } from "@/components/size-selector";
 import { useCart } from "@/components/cart-provider";
 import { WishlistButton } from "@/components/wishlist-button";
 import { getSellerById } from "@/data/sellers";
+import { getPromoAttribution } from "@/lib/promo-attribution";
+import { captureEvent } from "@/lib/posthog-client";
 
 interface ProductInfoProps {
   product: Product;
@@ -76,9 +78,44 @@ export function ProductInfo({ product }: ProductInfoProps) {
     ? "womens"
     : "mens";
 
-  function handleAddToCart() {
+  async function handleAddToCart() {
     if (!selectedSize) return;
-    addItem(product, selectedColor, selectedSize);
+
+    let isPromoted = false;
+    const attribution = getPromoAttribution(product.id);
+
+    if (attribution) {
+      isPromoted = true;
+    } else {
+      try {
+        const response = await fetch(`/api/new-seller-boost?productId=${product.id}`);
+        if (response.ok) {
+          const payload = (await response.json()) as { promoted?: boolean };
+          isPromoted = payload.promoted === true;
+        }
+      } catch {
+        // Ignore tracking lookup errors.
+      }
+    }
+
+    const promoMeta = isPromoted
+      ? {
+          isPromoted: true,
+          sellerId: product.sellerId,
+          source: "new_seller_boost" as const,
+        }
+      : undefined;
+
+    addItem(product, selectedColor, selectedSize, promoMeta);
+
+    if (isPromoted) {
+      captureEvent("promo_add_to_cart", {
+        sellerId: product.sellerId,
+        productId: product.id,
+        collectionSlug: product.collections[0] ?? "unknown",
+        isPromoted: true,
+      });
+    }
   }
 
   return (

@@ -50,6 +50,11 @@ export interface CartItem {
   color: ProductColor;
   size: number;
   quantity: number;
+  promo?: {
+    isPromoted: boolean;
+    sellerId: string;
+    source: "new_seller_boost";
+  };
 }
 
 export interface HeroSlide {

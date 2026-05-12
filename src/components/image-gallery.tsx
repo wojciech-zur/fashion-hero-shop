@@ -97,7 +97,7 @@ export function ImageGallery({ images, productName, colorName, colorHex = "#8a7d
         <div className="flex gap-2 overflow-x-auto">
           {images.map((image, index) => (
             <button
-              key={image}
+              key={`${image}-${index}`}
               onClick={() => setSelectedIndex(index)}
               className={cn(
                 "flex-shrink-0 w-16 h-16 md:w-20 md:h-20 overflow-hidden border-2 transition-colors",

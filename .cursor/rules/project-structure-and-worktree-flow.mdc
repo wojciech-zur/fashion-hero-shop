@@ -1,0 +1,35 @@
+---
+description: Project structure, orchestration rule, and required references
+alwaysApply: true
+---
+
+# Project Structure
+
+```
+src/
+  app/               # Next.js routes
+  components/        # React components
+    ui/              # shadcn/ui primitives
+    icons.tsx        # Extracted SVG icons as React components
+  lib/
+    utils.ts         # cn() utility (shadcn)
+  types/             # TypeScript interfaces
+  hooks/             # Custom React hooks
+public/
+  images/            # Downloaded images from target site
+  videos/            # Downloaded videos from target site
+  seo/               # Favicons, OG images, webmanifest
+docs/
+  research/          # Inspection output (design tokens, components, layout)
+  design-references/ # Screenshots and visual references
+scripts/             # Asset download scripts
+```
+
+# Most Important Note
+
+When launching parallel Cursor agents/subagents, always assign each teammate to an isolated worktree branch, then merge all branches at the end and resolve conflicts with full project context.
+
+# Required Inputs
+
+- `docs/research/INSPECTION_GUIDE.md`
+- `TARGET.md`

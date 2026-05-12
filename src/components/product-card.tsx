@@ -11,6 +11,7 @@ import { getSellerById } from "@/data/sellers";
 interface ProductCardProps {
   product: Product;
   className?: string;
+  onProductClick?: (product: Product) => void;
 }
 
 /* Each product gets a unique gradient based on its first color hex */
@@ -22,7 +23,7 @@ function hasRealImage(src: string): boolean {
   return src.startsWith("/images/");
 }
 
-export function ProductCard({ product, className }: ProductCardProps) {
+export function ProductCard({ product, className, onProductClick }: ProductCardProps) {
   const firstColor = product.colors[0];
   const { openQuickView } = useQuickView();
   const seller = getSellerById(product.sellerId);
@@ -42,7 +43,11 @@ export function ProductCard({ product, className }: ProductCardProps) {
   return (
     <div className={cn("group", className)}>
       <div className="relative">
-        <Link href={`/products/${product.slug}`} className="block">
+        <Link
+          href={`/products/${product.slug}`}
+          className="block"
+          onClick={() => onProductClick?.(product)}
+        >
           {/* Image area */}
           <div
             className="relative aspect-square overflow-hidden mb-3"
@@ -104,7 +109,11 @@ export function ProductCard({ product, className }: ProductCardProps) {
         </div>
       </div>
 
-      <Link href={`/products/${product.slug}`} className="block">
+      <Link
+        href={`/products/${product.slug}`}
+        className="block"
+        onClick={() => onProductClick?.(product)}
+      >
         {/* Product info */}
         <div>
           <h3 className="text-[12px] font-medium uppercase tracking-[0.5px] mb-0.5">

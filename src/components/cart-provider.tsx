@@ -6,7 +6,12 @@ import { CartDrawer } from "./cart-drawer";
 
 interface CartContextType {
   items: CartItem[];
-  addItem: (product: Product, color: ProductColor, size: number) => void;
+  addItem: (
+    product: Product,
+    color: ProductColor,
+    size: number,
+    promo?: CartItem["promo"]
+  ) => void;
   removeItem: (index: number) => void;
   updateQuantity: (index: number, quantity: number) => void;
   openCart: () => void;
@@ -27,7 +32,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
   const [isOpen, setIsOpen] = useState(false);
 
   const addItem = useCallback(
-    (product: Product, color: ProductColor, size: number) => {
+    (product: Product, color: ProductColor, size: number, promo?: CartItem["promo"]) => {
       setItems((prev) => {
         const existing = prev.findIndex(
           (item) =>
@@ -40,7 +45,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
           next[existing] = { ...next[existing], quantity: next[existing].quantity + 1 };
           return next;
         }
-        return [...prev, { product, color, size, quantity: 1 }];
+        return [...prev, { product, color, size, quantity: 1, promo }];
       });
       setIsOpen(true);
     },

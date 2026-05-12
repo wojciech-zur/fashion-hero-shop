@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useCart } from "@/components/cart-provider";
+import { captureEvent } from "@/lib/posthog-client";
 
 export default function CheckoutPage() {
   const { items } = useCart();
@@ -12,6 +13,18 @@ export default function CheckoutPage() {
   );
   const shipping = subtotal >= 299 ? 0 : 19.9;
   const total = subtotal + shipping;
+
+  function handlePlaceOrderClick() {
+    const promotedItems = items.filter((item) => item.promo?.isPromoted);
+    promotedItems.forEach((item) => {
+      captureEvent("promo_place_order", {
+        sellerId: item.promo?.sellerId ?? item.product.sellerId,
+        productId: item.product.id,
+        quantity: item.quantity,
+        isPromoted: true,
+      });
+    });
+  }
 
   return (
     <main className="max-w-6xl mx-auto px-4 md:px-8 py-8 md:py-12">
@@ -127,7 +140,7 @@ export default function CheckoutPage() {
             </section>
 
             {/* Place Order */}
-            <button className="btn-cta w-full sm:w-auto sm:min-w-[280px]">
+            <button onClick={handlePlaceOrderClick} className="btn-cta w-full sm:w-auto sm:min-w-[280px]">
               PLACE ORDER
             </button>
           </div>

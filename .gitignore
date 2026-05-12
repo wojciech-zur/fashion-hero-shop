@@ -15,6 +15,7 @@ dist/
 .env.development.local
 .env.test.local
 .env.production.local
+.env.posthog.local
 
 # Debug
 npm-debug.log*
@@ -38,8 +39,8 @@ next-env.d.ts
 # Vercel
 .vercel
 
-# Local settings (not project config)
-.claude/settings.local.json
+# Local Cursor settings (not project config)
+.cursor/settings.local.json
 
-# User-specific skills (not part of the template)
-.claude/skills/customize/
+# User-specific Cursor skills (not part of the template)
+.cursor/skills/customize/

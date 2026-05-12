@@ -1,0 +1,19 @@
+---
+description: Coding style and clone fidelity principles
+alwaysApply: true
+---
+
+# Code Style
+
+- TypeScript strict mode, no `any`
+- Named exports, PascalCase components, camelCase utils
+- Tailwind utility classes, no inline styles
+- 2-space indentation
+- Responsive: mobile-first
+
+# Design Principles
+
+- **Pixel-perfect emulation** — match target spacing, colors, and typography exactly
+- **No personal aesthetic changes during emulation phase** — match 1:1 first, customize later
+- **Real content** — use actual text and assets from the target site, not placeholders
+- **Beauty-first** — every pixel matters

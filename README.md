@@ -1,8 +1,8 @@
 # AI Website Clone Template
 
-A reusable template for reverse-engineering any website and rebuilding it as a pixel-perfect clone using [Claude Code](https://docs.anthropic.com/en/docs/claude-code).
+A reusable template for reverse-engineering any website and rebuilding it as a pixel-perfect clone using Cursor Agent.
 
-Point it at a URL, run `/clone-website`, and Claude Code will inspect the site via Chrome MCP, extract design tokens and assets, write component specs, and dispatch parallel builder agents to reconstruct every section — all in isolated git worktrees that merge automatically.
+Point it at a URL, run `/clone-website`, and Cursor Agent will inspect the site via browser automation/MCP, extract design tokens and assets, write component specs, and dispatch parallel builder agents to reconstruct every section — all in isolated git worktrees that merge automatically.
 
 ## Quick Start
 
@@ -11,17 +11,18 @@ Point it at a URL, run `/clone-website`, and Claude Code will inspect the site v
    ```bash
    npm install
    ```
-3. **Edit `TARGET.md`** — set the URL, scope, and fidelity level for the site you want to clone
-4. **Run the skill** in Claude Code:
+3. **Edit `TARGET.md`** — set URL, scope, and fidelity level
+4. **Run the skill** in Cursor Chat:
    ```
    /clone-website <url>
    ```
-5. **Customize** (optional) — after the base clone is built, modify as needed
+5. **Customize** (optional) after the base clone is complete
 
 ## Prerequisites
 
 - [Node.js](https://nodejs.org/) 20+
-- [Claude Code](https://docs.anthropic.com/en/docs/claude-code) with Chrome MCP enabled (required for site inspection)
+- [Cursor](https://www.cursor.com/) with agent mode enabled
+- Browser automation / MCP enabled (required for site inspection)
 
 ## Tech Stack
 
@@ -34,35 +35,41 @@ Point it at a URL, run `/clone-website`, and Claude Code will inspect the site v
 
 The `/clone-website` skill runs a multi-phase pipeline:
 
-1. **Reconnaissance** — screenshots, design token extraction, interaction sweep (scroll, click, hover, responsive)
-2. **Foundation** — updates fonts, colors, globals, downloads all assets
-3. **Component Specs** — writes detailed spec files (`docs/research/components/`) with exact computed CSS values, states, behaviors, and content
-4. **Parallel Build** — dispatches builder agents in git worktrees, one per section/component
-5. **Assembly & QA** — merges worktrees, wires up the page, runs visual diff against the original
+1. **Reconnaissance** — screenshots, design token extraction, interaction sweep (scroll/click/hover/responsive)
+2. **Foundation** — fonts, colors, globals, and assets
+3. **Component Specs** — detailed spec files in `docs/research/components/`
+4. **Parallel Build** — multiple builder agents in git worktrees
+5. **Assembly & QA** — merges, integration, visual diff, and behavior checks
 
-Each builder agent receives the full component specification inline — exact `getComputedStyle()` values, interaction models, multi-state content, responsive breakpoints, and asset paths. No guessing.
+Each builder agent receives exact `getComputedStyle()` values, interaction models, per-state content, responsive breakpoints, and asset paths.
+
+## Cursor-Specific Notes
+
+- Persistent AI rules live in `.cursor/rules/*.mdc`.
+- Cursor skill path: `.cursor/skills/clone-website/SKILL.md`.
 
 ## Project Structure
 
 ```
 src/
-  app/              # Next.js routes
-  components/       # React components
-    ui/             # shadcn/ui primitives
-    icons.tsx       # Extracted SVG icons
-  lib/utils.ts      # cn() utility
-  types/            # TypeScript interfaces
-  hooks/            # Custom React hooks
+  app/               # Next.js routes
+  components/        # React components
+    ui/              # shadcn/ui primitives
+    icons.tsx        # Extracted SVG icons
+  lib/utils.ts       # cn() utility
+  types/             # TypeScript interfaces
+  hooks/             # Custom React hooks
 public/
-  images/           # Downloaded images from target
-  videos/           # Downloaded videos from target
-  seo/              # Favicons, OG images
+  images/            # Downloaded images from target
+  videos/            # Downloaded videos from target
+  seo/               # Favicons, OG images
 docs/
-  research/         # Extraction output & component specs
+  research/          # Extraction output & component specs
   design-references/ # Screenshots
-scripts/            # Asset download scripts
-TARGET.md           # Clone target configuration
-AGENTS.md           # Agent instructions & code style
+scripts/             # Asset download scripts
+TARGET.md            # Clone target configuration
+.cursor/rules/       # Cursor project rules (.mdc)
+.cursor/skills/      # Cursor project skills
 ```
 
 ## Commands
@@ -77,11 +84,11 @@ npm run lint   # ESLint check
 
 Edit **`TARGET.md`** before cloning:
 
-- **URL** — the site to reverse-engineer
-- **Pages** — which pages to replicate
-- **Fidelity** — pixel-perfect, high fidelity, or structural
-- **Scope** — what's in/out of scope
-- **Customization plans** — modifications to apply after the base clone
+- **URL** — site to reverse-engineer
+- **Pages** — pages to replicate
+- **Fidelity** — pixel-perfect / high fidelity / structural
+- **Scope** — in/out of scope
+- **Customization plans** — post-clone modifications
 
 ## License
 

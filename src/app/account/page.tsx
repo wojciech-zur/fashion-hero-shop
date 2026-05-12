@@ -39,6 +39,16 @@ export default function AccountPage() {
         Welcome back to your FashionHero account.
       </p>
 
+      <section className="mb-10 border border-black/10 rounded-xl p-5 bg-white">
+        <h2 className="text-lg text-charcoal mb-2">Seller dashboard access</h2>
+        <p className="text-[13px] text-warm-gray mb-4">
+          Open your seller workspace to manage listings and promotions.
+        </p>
+        <Link href="/account/seller/debug" className="btn-cta-outline text-[12px]">
+          Go to seller dashboard
+        </Link>
+      </section>
+
       {/* Order History */}
       <section className="mb-10">
         <h2 className="text-[12px] font-medium uppercase tracking-[0.8px] text-charcoal mb-4 pb-2 border-b border-black/10">

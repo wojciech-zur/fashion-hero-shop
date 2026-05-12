@@ -1,9 +1,9 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
-import { SearchIcon, UserIcon, CartIcon, MenuIcon, CloseIcon, HeartIcon } from "./icons";
+import { SearchIcon, UserIcon, CartIcon, MenuIcon, CloseIcon, HeartIcon, BellIcon } from "./icons";
 import { SearchModal } from "./search-modal";
 import { MegaMenuNav, MobileMegaMenuContent } from "./mega-menu";
 import { useAuth } from "./auth-provider";
@@ -21,7 +21,13 @@ interface HeaderProps {
 export function Header({ onCartOpen, cartCount = 0, wishlistCount = 0 }: HeaderProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
   const { user } = useAuth();
+  const resolvedUser = mounted ? user : null;
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   return (
     <header className="bg-white sticky top-0 z-50 border-b border-black/5">
@@ -64,6 +70,13 @@ export function Header({ onCartOpen, cartCount = 0, wishlistCount = 0 }: HeaderP
             <SearchIcon />
           </button>
           <Link
+            href={resolvedUser ? "/account/seller" : "/account/login"}
+            aria-label="Seller dashboard"
+            className="p-1 hover:opacity-60 transition-opacity relative"
+          >
+            <BellIcon />
+          </Link>
+          <Link
             href="/wishlist"
             aria-label="Wishlist"
             className="hidden sm:block p-1 hover:opacity-60 transition-opacity relative"
@@ -76,13 +89,13 @@ export function Header({ onCartOpen, cartCount = 0, wishlistCount = 0 }: HeaderP
             )}
           </Link>
           <Link
-            href={user ? "/account" : "/account/login"}
+            href={resolvedUser ? "/account" : "/account/login"}
             aria-label="Account"
             className="hidden sm:flex p-1 hover:opacity-60 transition-opacity items-center justify-center"
           >
-            {user ? (
+            {resolvedUser ? (
               <span className="w-5 h-5 rounded-full bg-charcoal text-white text-[11px] font-medium flex items-center justify-center">
-                {user.firstName.charAt(0).toUpperCase()}
+                {resolvedUser.firstName.charAt(0).toUpperCase()}
               </span>
             ) : (
               <UserIcon />
